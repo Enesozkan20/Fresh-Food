@@ -1,0 +1,110 @@
+* {
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+section {
+    padding: 100px 11% 100px;
+}
+
+html::-webkit-scrollbar {
+    width: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: crimson;
+    border-radius: 10px;
+}
+
+#navbar {
+    padding: 0px 9% 0px;
+}
+
+#logo img {
+    width: 190px;
+    margin-top: 3px;
+}
+
+#btn {
+    padding: 5px;
+    border: 1px solid crimson;
+    background: none;
+    color: crimson;
+    border-radius: 5px;
+}
+
+.home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 5px 11% 80px;
+    flex-wrap: wrap;
+}
+
+.home .home-content {
+    flex: 1 1 400px;
+    padding: 20px;
+}
+
+.home .home-image {
+    flex: 1 1 300px;
+}
+
+.home .home-image img {
+    width: 100%;
+}
+
+.service .row .card img {
+    width: 200px;
+    margin: auto;
+}
+
+.top-menu {
+    padding: 10px 11% 100px;
+}
+
+.raiting i {
+    color: #f9a503;
+}
+
+
+.top-menu .card p i {
+    color: crimson;
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    background-color: crimson;
+}
+
+footer {
+    padding: 15px 11% 15px;
+}
+
+footer .logo img {
+    width: 250px;
+}
+
+.social-icons i {
+    font-size: 18px;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 5px;
+}
+
+.social-icons i:hover {
+    background-color: crimson;
+    color: white;
+}
+
+@media(max-width:875px) {
+    .home .home-image img {
+        max-width: unset;
+    }
+}
