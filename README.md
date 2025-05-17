@@ -22,6 +22,11 @@ The website includes different **menus** (Home, Products, About, and Apply), inf
 - **CSS3**: For small custom styles.  
 
 ---
+# Preview  
+
+![FreshFood-11leriocuk-GoogleChrome2025-05-1723-23-02-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/030b0eb3-1afb-4e66-994f-be0d54c7b155)
+
+---
 
 ## 📂 Project Files  
 - **index.html**: The main HTML file (with Home, Products, About, and Apply sections).  
